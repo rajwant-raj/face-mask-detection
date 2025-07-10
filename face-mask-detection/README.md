@@ -59,7 +59,7 @@ face-mask-detection/
 
 ### ✅ 1. Clone this repo
 
-```bash
+bash
 git clone https://github.com/rajwant-raj/face-mask-detection.git
 cd face-mask-detection
 ✅ 2. Install Dependencies
@@ -69,6 +69,8 @@ bash
 
 pip install -r requirements.txt
 If TensorFlow fails to install, install Microsoft C++ Redistributable and check Python version compatibility.
+
+---
 
 📦 Model Training (Colab)
 Open the Face_Mask_Detection.ipynb notebook in Google Colab and:
@@ -94,6 +96,8 @@ You can upload an image and get instant predictions for:
 
 😡 Without Mask
 
+---
+
 🧠 Model Architecture
 3 Convolutional + MaxPooling layers
 
@@ -111,6 +115,8 @@ Adam optimizer
 
 10 epochs
 
+---
+
 📊 Confusion Matrix & Evaluation
 Evaluate on test data using:
 
@@ -122,7 +128,9 @@ Confusion Matrix
 
 Classification Report
 
-📌 Dataset
+---
+
+📌 Dataset content
 Face Mask Dataset by Omkar Gurav
 
 Classes:
@@ -131,9 +139,6 @@ with_mask 😷
 
 without_mask 😡
 
----
-
-## 📊 Dataset
 
 The model is trained on the publicly available **Face Mask Dataset** from Kaggle, which contains images of people **with and without face masks**.
 
@@ -151,13 +156,14 @@ The model is trained on the publicly available **Face Mask Dataset** from Kaggle
 ✅ Public share with ngrok
 
 ✅ Free HTTPS hosting via Streamlit Cloud
+
 ---
 
 ## 🚀 How to Run the Streamlit App Locally
 
 1. Clone this repository:
 
-```bash
+bash
 git clone https://github.com/rajwant-raj/face-mask-detection.git
 cd face-mask-detection
 Install required packages:
@@ -171,6 +177,7 @@ bash
 
 streamlit run app.py
 
+---
 
 🧪 Sample Output
 Test Accuracy: ~97–99%
@@ -179,6 +186,7 @@ Includes accuracy/loss plots, confusion matrix, and classification report
 
 Real-time prediction on uploaded images using mask_detector_model.h5
 
+---
 
 📚 Internship Use
 This project was developed by me as part of a my summer internship of scalezix to demonstrate:
@@ -189,12 +197,16 @@ Model evaluation with metrics
 
 Deployment-ready web interface using Streamlit
 
+---
+
 🤝 Acknowledgements
 Omkar Gurav - Dataset Creator
 
 Kaggle
 
 Streamlit
+
+---
 
 🧑‍💻 Developed By
 Rajwant-Raj
