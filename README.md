@@ -37,17 +37,6 @@ The project includes a trained model, Colab training notebook, and a Streamlit-b
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Python 3.10+**
-- **TensorFlow / Keras**
-- **Streamlit**
-- **NumPy, Pillow, Matplotlib**
-- **Kaggle API**
-
-
----
-
 ## ▶️ How to Run Locally
 
 1. **Clone this repo**
@@ -58,16 +47,30 @@ The project includes a trained model, Colab training notebook, and a Streamlit-b
 
 3. Install dependencies
 
-```bash
+bash
 pip install -r requirements.txt
 Run the app
 
-bash
+`bash
 streamlit run app.py
 
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3.10+**
+- **TensorFlow / Keras**
+- **Streamlit**
+- **NumPy, Pillow, Matplotlib**
+- **Kaggle API**
+
+
 🙋‍♂️ Author
-Developed by [rajwant-raj] as part of a Deep Learning internship project at scalezix
+Developed by [rajwant-raj] as part of a Deep Learning internship project at Scalezix.
 Feel free to ⭐ this repo if you found it helpful!
 
 📜 License
 This project is licensed under the MIT License.
+
+
+
