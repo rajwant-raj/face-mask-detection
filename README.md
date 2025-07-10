@@ -52,6 +52,7 @@ Developed by [rajwant-raj] as part of a Deep Learning internship project at Scal
 Feel free to ⭐ this repo if you found it helpful!
 
 📜 License
+
 This project is licensed under the MIT License.
 
 
