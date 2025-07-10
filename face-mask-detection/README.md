@@ -15,11 +15,11 @@ The dataset is obtained via the Kaggle API and the model is built and trained in
 
 ---
 
-📸 App UI
+## 🖼️ UI Preview
 
 <div align="center">
-  <img src="![streamlit-ui](https://github.com/user-attachments/assets/ad0b191f-c6dc-40ba-ab70-4ff01adfd963)
-" alt="Face Mask Detection Streamlit App UI" width="700"/>
+  <img src="assets/streamlit-ui.png" alt="Face Mask Detection UI Screenshot" width="700"/>
+  <p><em>🔍 Sample output from the Face Mask Detection Streamlit Web App</em></p>
 </div>
 
 
@@ -56,7 +56,9 @@ face-mask-detection/
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
 └── face-mask-detection.ipynb # Google Colab notebook
-
+├── assets/
+    ├── streamlit-ui.png  ← ✅ This is the image of ui
+    └──ui-on-sample-data.png  ← ✅ This is the image of model working on sample
 ---
 
 ## 🚀 Getting Started
@@ -137,13 +139,13 @@ without_mask 😡
 
 ---
 
-📸 Sample Output
+## 📸 Sample Prediction Output
 
 <div align="center">
-  <img src="![ui-on-sample-data](https://github.com/user-attachments/assets/6319827c-96f5-4dd6-8033-a36f9d4cc97f)
-" alt="Sample Face Mask Prediction Output" width="700"/>
-  <p><em>🔍 Sample Prediction Output from the Face Mask Detection Web App</em></p>
+  <img src="assets/ui-on-sample-data.png" alt="Prediction Output" width="700"/>
+  <p><em>🧠 Model prediction: with_mask / without_mask, with confidence level</em></p>
 </div>
+
 
 ## 📊 Dataset
 
