@@ -15,13 +15,6 @@ The dataset is obtained via the Kaggle API and the model is built and trained in
 
 ---
 
-## 🖼️ UI Preview
-
-<div align="center">
-  <img src="assets/streamlit-ui.png" alt="Face Mask Detection UI Screenshot" width="700"/>
-  <p><em>🔍 Sample output from the Face Mask Detection Streamlit Web App</em></p>
-</div>
-
 
 ## 🧠 Technologies Used
 
@@ -56,9 +49,10 @@ face-mask-detection/
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
 └── face-mask-detection.ipynb # Google Colab notebook
-├── assets/
-    ├── streamlit-ui.png  ← ✅ This is the image of ui
-    └──ui-on-sample-data.png  ← ✅ This is the image of model working on sample
+├──face-mask-detection.py # python file
+├── streamlit-ui.png  ← ✅ This is the image of ui interface
+└──ui-on-sample-data.png  ← ✅ This is the image of model working on sample
+
 ---
 
 ## 🚀 Getting Started
@@ -66,7 +60,7 @@ face-mask-detection/
 ### ✅ 1. Clone this repo
 
 ```bash
-git clone https://github.com/yourusername/face-mask-detection.git
+git clone https://github.com/rajwant-raj/face-mask-detection.git
 cd face-mask-detection
 ✅ 2. Install Dependencies
 Make sure you have Python ≥ 3.8 and install all requirements:
@@ -138,14 +132,6 @@ with_mask 😷
 without_mask 😡
 
 ---
-
-## 📸 Sample Prediction Output
-
-<div align="center">
-  <img src="assets/ui-on-sample-data.png" alt="Prediction Output" width="700"/>
-  <p><em>🧠 Model prediction: with_mask / without_mask, with confidence level</em></p>
-</div>
-
 
 ## 📊 Dataset
 
