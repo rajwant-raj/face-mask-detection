@@ -8,7 +8,8 @@ The project includes a trained model, Colab training notebook, and a Streamlit-b
 ## 📸 Web App Interface
 
 <div align="center">
-  <img src="assets/streamlit-ui.png" alt="Face Mask Detection UI" width="700"/>
+  <img src="![streamlit-ui](https://github.com/user-attachments/assets/015e97b3-5cc5-43a2-a6d6-3ae79f5dabd2)
+" alt="Face Mask Detection UI" width="700"/>
   <p><em>👆 Upload an image and get mask detection results in real-time</em></p>
 </div>
 
@@ -17,7 +18,8 @@ The project includes a trained model, Colab training notebook, and a Streamlit-b
 ## 📊 Sample Output
 
 <div align="center">
-  <img src="assets/ui-on-sample-data.png" alt="Prediction Output" width="700"/>
+  <img src="![ui-on-sample-data](https://github.com/user-attachments/assets/91305244-e0e2-40a3-a115-7a60d0d78ae6)
+" alt="Prediction Output" width="700"/>
   <p><em>🧠 Prediction: <code>with_mask</code> | 🔍 Confidence: 98.12%</em></p>
 </div>
 
