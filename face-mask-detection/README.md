@@ -27,20 +27,27 @@ The dataset is obtained via the Kaggle API and the model is built and trained in
 
 ---
 
+✅ Features
+CNN-based real-time image classification
+
+Trained with Kaggle API dataset in Colab
+
+Automatic dataset split (Train/Val/Test)
+
+Confusion matrix and F1-report included
+
+Streamlit web interface for live predictions
+
+---
+
 ## 📁 Folder Structure
 
 face-mask-detection/
 │
 ├── app.py # Streamlit app
-├── mask_detector_model.h5 # Trained CNN model
 ├── README.md # Project documentation
 ├── requirements.txt # Python dependencies
-├── utils.py # Helper functions (e.g., predict)
-├── /data # (optional) Local data folder
-│ ├── with_mask/
-│ └── without_mask/
-└── /notebooks
-└── Face_Mask_Detection.ipynb # Google Colab notebook
+└── face-mask-detection.ipynb # Google Colab notebook
 
 ---
 
@@ -74,8 +81,7 @@ Save model as .h5 file
 
 🖥️ Run the Web App Locally
 bash
-Copy
-Edit
+
 streamlit run app.py
 Once running, visit:  http://localhost:8501
 You can upload an image and get instant predictions for:
@@ -121,15 +127,13 @@ with_mask 😷
 
 without_mask 😡
 
-🌐 Deployment Options
-✅ Localhost via Streamlit
-
-✅ Public share with ngrok
-
-✅ Free HTTPS hosting via Streamlit Cloud
+---
 
 📸 Sample Output
 
+
+
+---
 
 ## 📊 Dataset
 
@@ -138,26 +142,33 @@ without_mask 😡
 - Images are split into Train (80%), Validation (10%), and Test (10%) using `splitfolders`
 
 ---
+🌐 Deployment Options
+✅ Localhost via Streamlit
+
+✅ Public share with ngrok
+
+✅ Free HTTPS hosting via Streamlit Cloud
+---
 
 ## 🚀 How to Run the Streamlit App Locally
 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/face-mask-detection.git
-cd face-mask-detection/streamlit_app
+git clone https://github.com/rajwant-raj/face-mask-detection.git
+cd face-mask-detection
 Install required packages:
 
 bash
-Copy
-Edit
+
 pip install -r requirements.txt
 Run the app:
 
 bash
-Copy
-Edit
+
 streamlit run app.py
+
+
 🧪 Sample Output
 Test Accuracy: ~97–99%
 
@@ -165,23 +176,11 @@ Includes accuracy/loss plots, confusion matrix, and classification report
 
 Real-time prediction on uploaded images using mask_detector_model.h5
 
-✅ Features
-CNN-based real-time image classification
-
-Trained with Kaggle API dataset in Colab
-
-Automatic dataset split (Train/Val/Test)
-
-Confusion matrix and F1-report included
-
-Streamlit web interface for live predictions
 
 📚 Internship Use
-This project was developed as part of a college internship to demonstrate:
+This project was developed by me as part of a my summer internship of scalezix to demonstrate:
 
 Applied deep learning skills 
-
-Used ai tools
 
 Model evaluation with metrics
 
@@ -196,5 +195,5 @@ Streamlit
 
 🧑‍💻 Developed By
 Rajwant-Raj
-Summer-Intern @ [Scalezix]
-Guided by: [Sir Harsh Singh ]
+Intern @ [Scalezix]
+
