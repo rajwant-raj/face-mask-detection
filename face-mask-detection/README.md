@@ -15,6 +15,14 @@ The dataset is obtained via the Kaggle API and the model is built and trained in
 
 ---
 
+📸 App UI
+
+<div align="center">
+  <img src="![streamlit-ui](https://github.com/user-attachments/assets/ad0b191f-c6dc-40ba-ab70-4ff01adfd963)
+" alt="Face Mask Detection Streamlit App UI" width="700"/>
+</div>
+
+
 ## 🧠 Technologies Used
 
 - Python
@@ -131,17 +139,24 @@ without_mask 😡
 
 📸 Sample Output
 
-
-
----
+<div align="center">
+  <img src="![ui-on-sample-data](https://github.com/user-attachments/assets/6319827c-96f5-4dd6-8033-a36f9d4cc97f)
+" alt="Sample Face Mask Prediction Output" width="700"/>
+  <p><em>🔍 Sample Prediction Output from the Face Mask Detection Web App</em></p>
+</div>
 
 ## 📊 Dataset
 
-- **Kaggle Dataset**: [Face Mask Dataset by Omkar Gurav](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)
+The model is trained on the publicly available **Face Mask Dataset** from Kaggle, which contains images of people **with and without face masks**.
+
+👉 [Click here to view/download the dataset on Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset)
+
 - Contains 2 categories: `with_mask` and `without_mask`
 - Images are split into Train (80%), Validation (10%), and Test (10%) using `splitfolders`
+> Note: You'll need a Kaggle account to access the dataset.
 
 ---
+
 🌐 Deployment Options
 ✅ Localhost via Streamlit
 
